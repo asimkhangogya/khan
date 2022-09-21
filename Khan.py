@@ -105,7 +105,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system(')
+		    os.system(''xdg-open https://youtube.com/channel/UCRnpWUOCz3Sb1RAX3GK4r0A')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
